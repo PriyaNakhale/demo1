@@ -13,6 +13,7 @@ import demo.automationtesting.in.util.ActionClass;
 public class DemoWebsite {
 	@Test
 	public static void testing() {
+		//String path=System.getProperty("user.dir");
 		String path=System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", path+"/Driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
